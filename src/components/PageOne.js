@@ -14,15 +14,59 @@ class PageOne extends Component {
     render(){
         return(
             <App> 
-                <br/>
-                <div className="border color-purple">
-                    <p><Link to='/'>Go to root page</Link></p>
-                    <p> This is page one </p>
-                    <p> Observe the page address on your browser </p>
-                    <p>Below is an example of the JSON debugger</p>
-                    <JSONDebugger json={exampleJSONData} />
+
+
+                { /* 2 row 2 columns 3 columns */ }
+                <div className="row">
+                    <div className="col-xs-4">
+                        <div className="box color-white border">Row 1 Column 1</div>
+                    </div>
+
+                    <div className="col-xs-4">
+                        <div className="box color-white border">Row 1 Column 2</div>
+                    </div>
+
+                    <div className="col-xs-4">
+                        <div className="box color-white border">Row 1 Column 3</div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-xs-6">
+                        <div className="box color-pink border">Row 2 Column 1</div>
+                    </div>
+
+                    <div className="col-xs-6">
+                        <div className="box color-pink border">Row 2 Column 2</div>
+                    </div>
+                </div>
+
+
+                { /* Responsive 2 column */ }
+                <div className="row">
+                    <div className="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                        <div className="box color-white">Responsive 1</div>
+                    </div>
+                    <div className="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                        <div className="box color-white">Responsive 2</div>
+                    </div>
+                </div>
+
+                { /* Responsive 3 column */ }
+                <div className="row">
+                    <div className="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div className="box color-pink">Responsive 1</div>
+                    </div>
+                    <div className="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div className="box color-pink">Responsive 2</div>
+                    </div>
+
+                    <div className="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div className="box color-pink">Responsive 3</div>
+                    </div>
+                </div>
                 
-                </div> 
+
             </App> 
         )
     }

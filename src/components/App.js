@@ -9,11 +9,11 @@ class App extends Component {
         <div className="App">
           <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h2>Welcome to a vanilla React with react-router 4</h2>
+            <h2>Welcome to a vanilla React with react-router 4 + Flex Box Grid</h2>
           </div>
 
           <div className="border color-blue">
-              <Link to='/PageOne'>Go to Page One</Link>
+              <Link to='/PageOne'>Go to Page One to see Flex Box Grid Example</Link>
           </div>
 
            {/* Render children here*/}

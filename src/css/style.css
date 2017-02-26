@@ -8,6 +8,15 @@ body {
 .color-blue {
   background-color: #ffa500;
 }
+.color-white {
+  background-color: #fff;
+}
+.color-pink {
+  background-color: #ffc0cb;
+}
+.color-gray {
+  background-color: #808080;
+}
 .color-purple {
   background-color: #800080;
 }
